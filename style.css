@@ -296,5 +296,15 @@ footer {
     width: 100px;
   }
 }
-
+@media screen and (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 60px;
+        background-position: 70% center; /* Move background focal point left */
+        background-size: cover;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
